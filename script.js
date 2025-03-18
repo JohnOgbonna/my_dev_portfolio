@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
         const response = await fetch("data.json");
         const data = await response.json();
+        document.title = data.name ? data.name : "Cloud Developer Portfolio";
 
         // Theme
-        const theme = splitTheme(data.theme);
+        const theme = splitTheme(data.theme) || ["dark", "blue"];
         const dark = localStorage.getItem("themeMode") || theme[0]
         const color = themes[theme[1]] ? theme[1] : "blue"
         const selectedTheme = themes[color][dark] || themes[blue['dark']];

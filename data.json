@@ -3,22 +3,22 @@
     "contact": {
         "email": {
             "fieldName": "Email",
-            "link": "john.doe@example.com"
+            "link": "johnny.ogb@gmail.com"
         },
         "devto": {
             "fieldName": "Dev.to",
-            "link": "https://dev.to/johndoe"
+            "link": "https://dev.to/johnogbonna"
         },
         "linkedin": {
             "fieldName": "Linkedin",
-            "link": "https://linkedin.com/in/johndoe"
+            "link": "https://www.linkedin.com/in/johnogbonna/"
         },
         "github": {
             "fieldName": "Github",
-            "link": "https://github.com/johndoe"
+            "link": "https://github.com/JohnOgbonna"
         }
     },
-    "title": "Cloud Developer • DevOps",
+    "title": "Cloud Developer • Full Stack Developer • DevOps",
     "description": "Passionate cloud developer with experience in AWS, Azure, and Google Cloud.",
     "skills": [
         {
@@ -27,7 +27,10 @@
                 "EC2",
                 "S3",
                 "Lambda",
-                "DynamoDB"
+                "DynamoDB",
+                "Amplify",
+                "Api Gateway",
+                "SES"
             ]
         },
         {
@@ -35,7 +38,9 @@
             "list": [
                 "Azure Functions",
                 "Blob Storage",
-                "Cosmos DB"
+                "App Service",
+                "Azure DevOps",
+                "Azure Virtual Machines"
             ]
         },
         {
@@ -43,62 +48,58 @@
             "list": [
                 "Cloud Functions",
                 "Cloud Storage",
-                "Firestore"
+                "Firebase"
             ]
         }
     ],
     "projects": [
         {
-            "name": "Example project 1",
-            "description": "Your future project displayed here",
-            "github": "https://github.com/you/project1",
-            "liveDemo": "https://project1.com",
-            "image": "project_photos/sample1.png"
+            "name": "Crunchee Munchies",
+            "description": "A web client for crunchee munchies Nigerian snacks",
+            "github": "https://github.com/JohnOgbonna/crunchee-munchies-v2",
+            "liveDemo": "https://crunchee-munchies.com/",
+            "image": "project_photos/CruncheeMunchiesV2-2.png"
         },
         {
-            "name": "Example project 2",
-            "description": "Your future project displayed here",
+            "name": "Portfolio Site",
+            "description": "Original Webdev Portfolio Site",
             "github": "https://github.com/you/project2",
-            "liveDemo": "https://project2.com",
-            "image": "project_photos/sample2.png"
+            "liveDemo": "https://johnogbonna.com",
+            "image": "project_photos/portfolio-1.png"
         },
         {
-            "name": "Example project 3",
-            "description": "Your future project displayed here",
-            "github": "https://github.com/you/project3",
+            "name": "Azure Snake Game",
+            "description": "Practice deployment of AI game with Azure App Service",
+            "github": "https://github.com/JohnOgbonna/snake_game",
             "liveDemo": "https://project3.com",
-            "image": "project_photos/sample3.png"
+            "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ijbrsowo7e9d72sniu2j.png"
         }
     ],
     "certifications": [
         {
-            "name": "Example Azure Certification",
-            "provider": "Microsoft"
-        },
-        {
-            "name": "Example AWS Certification",
+            "name": "AWS Certified Developer - Associate",
             "provider": "Amazon Web Services"
         },
         {
-            "name": "Example Google Cloud Certification",
-            "provider": "Google Cloud"
+            "name": "AWS Certified Cloud Practitioner",
+            "provider": "Amazon Web Services"
         }
     ],
     "articles": {
         "header": "Check out my recent articles on Dev.to!",
         "items": [
             {
-                "title": "Getting Started with AWS Lambda (example article)",
-                "url": "https://dev.to/jrandomArticle1",
-                "cover": "article_cover_photos/getting-started-aws-lambda.png"
+                "title": "Azure DevOps: Version Control Using Git and VS Code",
+                "url": "https://dev.to/johnogbonna/azure-devops-version-control-using-git-and-vs-code-24h",
+                "cover": "article_cover_photos/azure-dev-ops.png"
             },
             {
-                "title": "Deploying Apps on Azure (example article)",
-                "url": "https://dev.to/randomArticle2",
-                "cover": "article_cover_photos/deploying-apps-to-azure.png"
+                "title": "Getting Started With Terraform! Deploying an AWS EC2 Instance",
+                "url": "https://dev.to/johnogbonna/getting-started-with-terraform-deploying-an-aws-ec2-instance-51hg",
+                "cover": "article_cover_photos/Getting started with terraform.png"
             }
         ]
     },
-    "theme": "dark-blue",
+    "theme": "light-red",
     "allowToggleDarkMode": true
 }
